@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--import the links in number 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <main>
     <!--Header Section-->
     <header>
-        <div class="site-title">
+        <div class="title-site">
             <h1>Title of my Site</h1>
         </div>
-        <nav class="links">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#section-1">Section 1</a></li>
-                <li><a href="#section-2">Section 2</a></li>
-                <li><a href="#section-3">Section 3</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <form action="">
-            <input type="search" name="searchbar" id="searchbar" placeholder="Search">
-            <input type="button" value="Go!">
-        </form>
     </header>
-
-    <!--Main Section-->
-    <main>
+    <nav class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#section-1">Section 1</a></li>
+            <li><a href="#section-2">Section 2</a></li>
+            <li><a href="#section-3">Section 3</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <form action="" id="search">
+        <input type="search" name="searchbar" id="searchbar" placeholder="Search">
+        <input type="button" value="Go!">
+    </form>
         <aside>
             <h2>Sidebar</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, cumque? Iste expedita totam, saepe eos minima temporibus laudantium nam necessitatibus? Dolor veniam quidem sed tempora, consequatur excepturi optio iste quos!</p>
@@ -43,7 +46,7 @@
         </aside>
 
         <section id="home">
-            <h2>Title of the Section</h2>
+            <h2 id="section-title">Title of the Section</h2>
             <article id="article-1">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi beatae sit, rerum repellendus quas architecto. Libero maiores, ratione cupiditate non, pariatur sequi nam corrupti voluptate aliquam impedit eius ab.</p>
             </article>
@@ -71,12 +74,18 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe culpa ullam hic ut amet, nemo veniam. Minus neque, exercitationem amet ad atque quis illum quod aspernatur eveniet modi aliquid enim!</p>
             </article>
         </section>
-    </main>
 
     <!--Footer Section-->
     <footer>
-        <h2>Footer Section</h2>
-        <p>@Copyright 2024 - Laboratory Exercise #1 - Background image <span><a href="">Solid Backgrounds</a></span> <span style="color: blueviolet;">- </span><span><a href="">Link 1</a></span><span style="color: blueviolet;"> - </span><span><a href="">Link 2</a></span></p>
+        <div class="footer-title">
+            <h2>Footer</h2>
+        </div>
+        <p>&copy;Copyright 2024 - Laboratory Exercise #1 - Background image <span><a href="">Solid Backgrounds</a></span> - <span><a href="">Link 1</a> <span> - </span></span><span><a href="">Link 2</a></span></p>
     </footer>
+    </main>
+
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js">
+
+    </script>
 </body>
 </html>
